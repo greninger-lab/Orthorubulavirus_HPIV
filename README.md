@@ -6,3 +6,5 @@ Maximum likelihood trees using IQ-TREE have the file extension .treefile.
 Bayesian phylodynamic trees using BEAST2 have the file extension .tre, and details of each run are indicated in the .xml file.
 
 To visualize the trees, you can use software such as FigTree. When importing the trees, you can also include the corresponding annotation files: . These annotation files will enable you to display the metadata within the trees.
+
+Table HPIV-2_p-distance.xlsx contains estimates of p-distance over sequence pairs between genotypes with MEGAX, for the purpose of confirming HPIV-2 genotypes.
