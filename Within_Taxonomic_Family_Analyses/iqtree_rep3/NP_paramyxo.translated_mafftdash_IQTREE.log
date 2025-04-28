@@ -1,0 +1,523 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Stephanie-Mac-Studio.local (SSE4.2, 64 GB RAM)
+Command: iqtree2 -s NP_paramyxo.translated_blastp_mafftdash-cut.fasta -B 1000 -alrt 1000
+Seed:    87651 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 11 07:32:27 2025
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file NP_paramyxo.translated_blastp_mafftdash-cut.fasta ... Fasta format detected
+Reading fasta file: done in 0.000490904 secs using 90.24% CPU
+Alignment most likely contains protein sequences
+Alignment has 96 sequences with 441 columns, 435 distinct patterns
+404 parsimony-informative, 12 singleton sites, 25 constant sites
+                                                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.29153e-05 secs using 100.2% CPU
+   1  ON637881_Pigeon-paramyxovirus-1                                 5.44%    passed     98.72%
+   2  MK677431_Avian-metaavulavirus-22                                4.99%    passed     64.77%
+   3  MK677431_Avian-metaavulavirus-21                                4.99%    passed     64.77%
+   4  OQ236149_Tiger-orthorubulavirus                                 4.99%    passed     95.87%
+   5  PP990581_Bat-paramyxovirus_Miniopterus-fuliginosus              5.44%    passed     32.69%
+   6  OL630969_Bat-paramyxovirus_Hipposideros-armiger                 4.54%    passed     12.60%
+   7  MG203876_Bat-paramyxovirus_Miniopterus-griveaudi                5.44%    passed     52.58%
+   8  MT062420_Achimota-pararubulavirus-3                             4.99%    passed     45.53%
+   9  KT749883_Porcine-parainfluenza-virus                            4.99%    passed     24.82%
+  10  PP712035_Rousettus-bat-paramyxovirus                            4.99%    passed     87.76%
+  11  KY100867_Orthorubulavirus-suis                                  4.99%    passed     35.94%
+  12  PQ881840_Mammalian-orthorubulavirus-5_Pseudois-nayaur           4.99%    passed     97.58%
+  13  MH370862_Mammalian-orthorubulavirus-5_Panthera-tigris-tigris    4.99%    passed     97.58%
+  14  MK028670_Mammalian-orthorubulavirus-5_Porcine                   4.99%    passed     97.88%
+  15  MG921602_Mammalian-orthorubulavirus-5_Pangolin                  4.99%    passed     97.58%
+  16  MT604001_Mammalian-orthorubulavirus-5_dog                       4.99%    passed     97.57%
+  17  HQ660095_Bat                                                    4.99%    passed     12.78%
+  18  MZ328287_Wufeng-Rhinolophus-sinicus-rubulavirus-1               4.99%    passed     96.05%
+  19  AB040874_Mumps_orthorubul                                       4.99%    passed     19.42%
+  20  AB195968_Respirovirus_mur                                       4.99%    passed     40.84%
+  21  AB543336_Human_parainflue                                       4.99%    passed     93.95%
+  22  AF014953_Canine_distemper                                       4.99%    passed     11.27%
+  23  AF017149_Hendra_virus                                           5.44%    passed     85.19%
+  24  AF052755_Parainfluenza_vi                                       4.99%    passed     97.58%
+  25  AF079780_Tupaia_paramyxov                                       5.44%    passed     42.87%
+  26  AF178654_Bovine_parainflu                                       5.22%    passed     81.83%
+  27  AF212302_Nipah_virus                                            5.44%    passed     72.28%
+  28  AF298895_Tioman_virus                                           4.99%    passed     12.50%
+  29  AF457102_Human_parainflue                                       4.99%    passed     57.59%
+  30  AJ608288_Dolphin_morbilli                                       4.99%    passed     54.67%
+  31  AJ849636_Peste_des_petits                                       4.99%    passed     33.17%
+  32  AY141760_Fer-de-lance_vir                                       6.35%    passed     12.13%
+  33  AY286409_Mossman_virus                                          5.44%    passed     47.28%
+  34  AY562991_Newcastle_diseas                                       5.44%    passed     98.71%
+  35  AY900001_J-virus                                                5.44%    passed     63.76%
+  36  BK005918_La_Piedad_Michoa                                       4.99%    passed     35.94%
+  37  DQ100461_Beilong_virus                                          5.44%    passed     97.47%
+  38  EF095490_Mapuera_virus                                          4.99%    passed     93.88%
+  39  EF569970_Avian_paramyxovi                                       4.99%    passed     82.65%
+  40  EU156171_Atlantic_salmon_                                       4.54%    passed     69.50%
+  41  EU326526_Human_parainflue                                       5.22%    passed     59.24%
+  42  EU338414_Avian_paramyxovi                                       4.99%    passed     71.49%
+  43  EU782025_Avian_paramyxovi                                       5.22%    passed     49.35%
+  44  EU877976_Avian_paramyxovi                                       5.67%    passed     87.41%
+  45  EU910942_Avian_paramyxovi                                       5.44%    passed     86.62%
+  46  FJ215863_Avian_paramyxovi                                       4.99%    passed     59.00%
+  47  FJ231524_Avian_paramyxovi                                       4.99%    passed     96.70%
+  48  FJ362497_Nariva_virus                                           5.44%    passed     68.28%
+  49  GU128080_Tuhoko_virus_1                                         4.99%    passed     68.17%
+  50  GU128081_Tuhoko_virus_2                                         5.22%    passed     15.17%
+  51  GU128082_Tuhoko_virus_3                                         4.99%    passed     32.51%
+  52  GU206351_Avian_paramyxovi                                       4.99%    passed     77.35%
+  53  HM147142_Avian_paramyxovi                                       4.99%    passed     92.42%
+  54  HQ660129_Bat_Paramyxoviru                                       5.44%    passed     17.77%
+  55  JN689227_Tailam_virus                                           5.44%    passed     99.15%
+  56  JQ001776_Cedar_virus                                            5.44%    passed     67.20%
+  57  JQ411014_Feline_morbilliv                                       4.99%    passed     66.71%
+  58  JQ697837_Salem_virus                                            5.44%    passed      9.98%
+  59  JQ886184_Avian_paramyxovi                                       4.99%    passed     78.99%
+  60  JX051319_Achimota_virus_1                                       4.99%    passed     13.58%
+  61  JX051320_Achimota_virus_2                                       4.99%    passed     59.46%
+  62  JX112711_Menangle_virus                                         4.99%    passed      9.70%
+  63  JX857409_Porcine_parainfl                                       4.99%    passed     22.01%
+  64  KC333050_Avian_paramyxovi                                       5.44%    passed     87.09%
+  65  KC802221_Phocine_distempe                                       4.99%    passed     16.40%
+  66  KF278639_Mojiang_virus                                          6.12%    passed     59.44%
+  67  KF774436_Sosuga_virus                                           4.99%    passed     41.38%
+  68  KP271124_Teviot_virus                                           4.99%    passed      7.20%
+  69  KT215610_Caprine_parainfl                                       5.22%    passed     91.42%
+  70  KX258200_Avian_paramyxovi                                       4.99%    passed     95.00%
+  71  KX932454_Avian_paramyxovi                                       4.99%    passed     99.63%
+  72  KY452442_Antarctic_pengui                                       5.44%    passed     94.37%
+  73  KY452443_Antarctic_pengui                                       5.44%    passed     98.50%
+  74  KY452444_Antarctic_pengui                                       5.44%    passed     99.59%
+  75  KY511044_Avian_paramyxovi                                       5.44%    passed     96.88%
+  76  LC041132_Avian_paramyxovi                                       5.44%    passed     78.04%
+  77  LS992584_Giant_squirrel_r                                       4.99%    passed     29.80%
+  78  MF033136_Avian_paramyxovi                                       4.99%    passed     23.65%
+  79  MF594598_Avian_paramyxovi                                       5.44%    passed     97.58%
+  80  MF943130_Bank_vole_virus_                                       5.44%    passed     87.13%
+  81  MG230624_Shaan_virus                                            5.44%    passed     31.61%
+  82  MG516455_Pohorje_myodes_p                                       5.44%    passed     73.37%
+  83  MG573140_Mount_Mabu_Lophu                                       5.90%    passed     64.78%
+  84  MG573141_Mount_Mabu_Lophu                                       4.99%    passed     40.17%
+  85  MH828709_Human_parainflue                                       4.99%    passed     95.32%
+  86  MH900516_Pacific_salmon_p                                       4.08%    failed      1.85%
+  87  MH972568_Alston_virus                                           4.99%    passed     98.30%
+  88  MN306032_Human_parainflue                                       4.99%    passed     95.71%
+  89  MN630055_Mumps_virus                                            4.99%    passed     15.95%
+  90  MZ355765_Eptesicus_fuscus                                       5.90%    passed     90.41%
+  91  PP189887_Parainfluenza_vi                                       4.99%    passed     92.68%
+  92  NC_001498_Measles                                               4.99%    passed     32.21%
+  93  PQ621733_Human_orthorubul                                       4.99%    passed     98.90%
+  94  X57559_Parainfluenza_type                                       5.22%    passed     99.04%
+  95  X64275_Simian_parainfluen                                       4.99%    passed     92.46%
+  96  X98291_Rinderpest_virus                                         4.99%    passed     57.55%
+****  TOTAL                                                           5.16%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: BK005918_La_Piedad_Michoa is identical to KY100867_Orthorubulavirus-suis but kept for subsequent analysis
+NOTE: MH370862_Mammalian-orthorubulavirus-5_Panthera-tigris-tigris is identical to PQ881840_Mammalian-orthorubulavirus-5_Pseudois-nayaur but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MG921602_Mammalian-orthorubulavirus-5_Pangolin (identical to PQ881840_Mammalian-orthorubulavirus-5_Pseudois-nayaur) is ignored but added at the end
+NOTE: AF052755_Parainfluenza_vi (identical to PQ881840_Mammalian-orthorubulavirus-5_Pseudois-nayaur) is ignored but added at the end
+Alignment was printed to NP_paramyxo.translated_blastp_mafftdash-cut.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to NP_paramyxo.translated_blastp_mafftdash-cut.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -36107.157
+Optimal log-likelihood: -36107.115
+Proportion of invariable sites: 0.036
+Gamma shape alpha: 1.266
+Parameters optimization took 1 rounds (1.136 sec)
+Time for fast ML tree search: 10.596 seconds
+
+NOTE: ModelFinder requires 67 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 441 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            37882.525    185 76135.050    76404.932    76891.523
+  2  LG+I          37622.811    186 75617.621    75891.495    76378.184
+  3  LG+G4         36143.477    186 72658.953    72932.827    73419.516
+  4  LG+I+G4       36107.134    187 72588.268    72866.181    73352.919
+  5  LG+R2         36503.365    187 73380.729    73658.642    74145.381
+  6  LG+R3         36218.408    189 72814.816    73100.951    73587.645
+  7  LG+R4         36116.039    191 72614.078    72908.632    73395.085
+  8  LG+R5         36068.213    193 72522.425    72825.599    73311.611
+  9  LG+R6         36051.015    195 72492.030    72804.030    73289.394
+ 10  LG+R7         36048.684    197 72491.368    72812.405    73296.910
+ 14  LG+I+R2       36385.026    188 73146.052    73428.052    73914.792
+ 15  LG+I+R3       36162.868    190 72705.736    72996.056    73482.654
+ 16  LG+I+R4       36081.190    192 72546.379    72845.218    73331.476
+ 17  LG+I+R5       36061.454    194 72510.909    72818.470    73304.183
+ 18  LG+I+R6       36049.643    196 72491.287    72807.779    73292.740
+ 19  LG+I+R7       36047.007    198 72490.013    72815.650    73299.644
+ 31  LG+F+R6       35944.075    214 72316.150    72723.318    73191.206
+ 32  LG+F+R7       35940.652    216 72313.304    72731.804    73196.538
+ 40  LG+F+I+R6     35942.046    215 72314.092    72726.892    73193.236
+ 53  WAG+R6        36513.235    195 73416.470    73728.470    74213.834
+ 54  WAG+R7        36509.762    197 73413.523    73734.561    74219.065
+ 62  WAG+I+R6      36511.690    196 73415.381    73731.872    74216.833
+ 75  WAG+F+R6      36383.655    214 73195.310    73602.478    74070.365
+ 76  WAG+F+R7      36380.745    216 73193.490    73611.990    74076.724
+ 84  WAG+F+I+R6    36382.589    215 73195.178    73607.978    74074.323
+ 97  JTT+R6        36347.505    195 73085.011    73397.011    73882.374
+ 98  JTT+R7        36345.212    197 73084.424    73405.461    73889.966
+106  JTT+I+R6      36345.069    196 73082.138    73398.629    73883.590
+119  JTT+F+R6      36208.146    214 72844.291    73251.459    73719.347
+120  JTT+F+R7      36205.802    216 72843.604    73262.104    73726.838
+128  JTT+F+I+R6    36205.525    215 72841.051    73253.851    73720.195
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+141  Q.pfam+R6     36085.847    195 72561.693    72873.693    73359.057
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+142  Q.pfam+R7     36082.782    197 72559.564    72880.601    73365.106
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+150  Q.pfam+I+R6   36085.662    196 72563.325    72879.816    73364.777
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+163  Q.pfam+F+R6   36016.910    214 72461.821    72868.989    73336.876
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+164  Q.pfam+F+R7   36013.352    216 72458.704    72877.204    73341.938
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+172  Q.pfam+F+I+R6 36016.928    215 72463.855    72876.655    73343.000
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+185  Q.bird+R6     37088.667    195 74567.334    74879.334    75364.698
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+186  Q.bird+R7     37083.838    197 74561.675    74882.712    75367.217
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+194  Q.bird+I+R6   37088.038    196 74568.076    74884.568    75369.529
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+207  Q.bird+F+R6   36861.476    214 74150.952    74558.120    75026.007
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+208  Q.bird+F+R7   36853.412    216 74138.825    74557.325    75022.059
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+216  Q.bird+F+I+R6 36857.900    215 74145.800    74558.600    75024.945
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+229  Q.mammal+R6   36807.257    195 74004.513    74316.513    74801.877
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+230  Q.mammal+R7   36803.180    197 74000.360    74321.397    74805.902
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+238  Q.mammal+I+R6 36806.398    196 74004.795    74321.287    74806.248
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+251  Q.mammal+F+R6 36573.078    214 73574.156    73981.325    74449.212
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+252  Q.mammal+F+R7 36567.485    216 73566.970    73985.470    74450.204
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+260  Q.mammal+F+I+R6 36571.412    215 73572.823    73985.623    74451.968
+273  Q.insect+R6   35932.140    195 72254.281    72566.281    73051.644
+274  Q.insect+R7   35928.885    197 72251.769    72572.806    73057.311
+282  Q.insect+I+R6 35930.627    196 72253.254    72569.746    73054.707
+295  Q.insect+F+R6 35793.979    214 72015.957    72423.125    72891.013
+296  Q.insect+F+R7 35790.501    216 72013.002    72431.502    72896.235
+304  Q.insect+F+I+R6 35791.761    215 72013.521    72426.321    72892.666
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+317  Q.plant+R6    36251.728    195 72893.456    73205.456    73690.820
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+318  Q.plant+R7    36246.886    197 72887.773    73208.810    73693.315
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+326  Q.plant+I+R6  36249.698    196 72891.395    73207.887    73692.848
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+339  Q.plant+F+R6  36097.691    214 72623.381    73030.549    73498.437
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+340  Q.plant+F+R7  36090.222    216 72612.443    73030.943    73495.677
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+348  Q.plant+F+I+R6 36095.666    215 72621.332    73034.132    73500.477
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+361  Q.yeast+R6    36029.700    195 72449.400    72761.400    73246.763
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+362  Q.yeast+R7    36025.870    197 72445.741    72766.778    73251.283
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+370  Q.yeast+I+R6  36028.974    196 72449.948    72766.440    73251.401
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+383  Q.yeast+F+R6  35824.985    214 72077.969    72485.137    72953.025
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+384  Q.yeast+F+R7  35820.916    216 72073.833    72492.333    72957.067
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+392  Q.yeast+F+I+R6 35823.932    215 72077.864    72490.664    72957.009
+405  JTTDCMut+R6   36353.902    195 73097.805    73409.805    73895.168
+406  JTTDCMut+R7   36351.530    197 73097.061    73418.098    73902.603
+414  JTTDCMut+I+R6 36351.135    196 73094.270    73410.761    73895.722
+427  JTTDCMut+F+R6 36208.824    214 72845.648    73252.817    73720.704
+428  JTTDCMut+F+R7 36206.102    216 72844.203    73262.703    73727.437
+436  JTTDCMut+F+I+R6 36206.374    215 72842.749    73255.549    73721.893
+449  DCMut+R6      36738.789    195 73867.577    74179.577    74664.941
+450  DCMut+R7      36737.074    197 73868.147    74189.184    74673.689
+458  DCMut+I+R6    36736.502    196 73865.003    74181.495    74666.456
+471  DCMut+F+R6    36432.772    214 73293.545    73700.713    74168.600
+472  DCMut+F+R7    36430.345    216 73292.690    73711.190    74175.924
+480  DCMut+F+I+R6  36430.934    215 73291.869    73704.669    74171.013
+493  VT+R6         36539.216    195 73468.433    73780.433    74265.796
+494  VT+R7         36537.236    197 73468.471    73789.508    74274.013
+502  VT+I+R6       36536.832    196 73465.663    73782.155    74267.116
+515  VT+F+R6       36440.659    214 73309.318    73716.486    74184.373
+516  VT+F+R7       36438.600    216 73309.199    73727.699    74192.433
+524  VT+F+I+R6     36438.330    215 73306.661    73719.461    74185.805
+537  PMB+R6        36877.938    195 74145.876    74457.876    74943.240
+538  PMB+R7        36876.369    197 74146.737    74467.774    74952.279
+546  PMB+I+R6      36876.213    196 74144.425    74460.917    74945.878
+559  PMB+F+R6      36785.192    214 73998.384    74405.552    74873.440
+560  PMB+F+R7      36783.587    216 73999.174    74417.674    74882.408
+568  PMB+F+I+R6    36783.874    215 73997.749    74410.549    74876.893
+581  Blosum62+R6   36845.310    195 74080.620    74392.620    74877.984
+582  Blosum62+R7   36843.357    197 74080.715    74401.752    74886.256
+590  Blosum62+I+R6 36844.207    196 74080.414    74396.905    74881.866
+603  Blosum62+F+R6 36773.943    214 73975.886    74383.054    74850.942
+604  Blosum62+F+R7 36771.921    216 73975.843    74394.343    74859.076
+612  Blosum62+F+I+R6 36772.862    215 73975.725    74388.525    74854.869
+625  Dayhoff+R6    36735.106    195 73860.212    74172.212    74657.575
+626  Dayhoff+R7    36733.582    197 73861.164    74182.201    74666.706
+634  Dayhoff+I+R6  36732.534    196 73857.069    74173.560    74658.521
+647  Dayhoff+F+R6  36429.993    214 73287.987    73695.155    74163.042
+648  Dayhoff+F+R7  36427.766    216 73287.532    73706.032    74170.766
+656  Dayhoff+F+I+R6 36427.892    215 73285.785    73698.585    74164.930
+669  mtREV+R6      37893.501    195 76177.001    76489.001    76974.365
+670  mtREV+R7      37887.732    197 76169.463    76490.501    76975.005
+678  mtREV+I+R6    37898.136    196 76188.272    76504.764    76989.725
+691  mtREV+F+R6    36725.293    214 73878.585    74285.753    74753.641
+692  mtREV+F+R7    36715.101    216 73862.202    74280.702    74745.435
+700  mtREV+F+I+R6  36723.480    215 73876.959    74289.759    74756.104
+713  mtART+R6      37829.548    195 76049.095    76361.095    76846.459
+714  mtART+R7      37823.081    197 76040.161    76361.198    76845.703
+722  mtART+I+R6    37832.824    196 76057.648    76374.139    76859.100
+735  mtART+F+R6    36619.127    214 73666.254    74073.423    74541.310
+736  mtART+F+R7    36610.660    216 73653.319    74071.819    74536.553
+744  mtART+F+I+R6  36619.206    215 73668.412    74081.212    74547.556
+757  mtZOA+R6      37074.278    195 74538.557    74850.557    75335.920
+758  mtZOA+R7      37064.554    197 74523.107    74844.144    75328.649
+766  mtZOA+I+R6    37072.150    196 74536.299    74852.791    75337.752
+779  mtZOA+F+R6    36276.731    214 72981.461    73388.629    73856.517
+780  mtZOA+F+R7    36267.248    216 72966.495    73384.995    73849.729
+788  mtZOA+F+I+R6  36278.925    215 72987.851    73400.651    73866.995
+801  mtMet+R6      37886.642    195 76163.285    76475.285    76960.648
+802  mtMet+R7      37877.403    197 76148.805    76469.842    76954.347
+810  mtMet+I+R6    37883.381    196 76158.763    76475.255    76960.216
+823  mtMet+F+R6    36641.513    214 73711.026    74118.194    74586.082
+824  mtMet+F+R7    36634.216    216 73700.432    74118.932    74583.665
+832  mtMet+F+I+R6  36641.522    215 73713.044    74125.844    74592.189
+845  mtVer+R6      38355.071    195 77100.141    77412.141    77897.505
+846  mtVer+R7      38342.409    197 77078.818    77399.855    77884.360
+854  mtVer+I+R6    38348.592    196 77089.184    77405.676    77890.637
+867  mtVer+F+R6    37250.600    214 74929.201    75336.369    75804.256
+868  mtVer+F+R7    37245.872    216 74923.744    75342.244    75806.978
+876  mtVer+F+I+R6  37251.187    215 74932.374    75345.174    75811.519
+889  mtInv+R6      38011.636    195 76413.271    76725.271    77210.635
+890  mtInv+R7      38004.665    197 76403.331    76724.368    77208.873
+898  mtInv+I+R6    38011.904    196 76415.808    76732.299    77217.260
+911  mtInv+F+R6    36351.484    214 73130.967    73538.135    74006.023
+912  mtInv+F+R7    36346.022    216 73124.044    73542.544    74007.277
+920  mtInv+F+I+R6  36352.061    215 73134.122    73546.922    74013.267
+933  mtMAM+R6      38684.154    195 77758.308    78070.308    78555.672
+934  mtMAM+R7      38678.279    197 77750.559    78071.596    78556.101
+942  mtMAM+I+R6    38678.315    196 77748.630    78065.122    78550.083
+955  mtMAM+F+R6    37444.130    214 75316.259    75723.427    76191.315
+956  mtMAM+F+R7    37437.949    216 75307.898    75726.398    76191.132
+964  mtMAM+F+I+R6  37440.585    215 75311.169    75723.969    76190.314
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+977  FLAVI+R6      37567.500    195 75524.999    75836.999    76322.363
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+978  FLAVI+R7      37559.470    197 75512.940    75833.977    76318.482
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+986  FLAVI+I+R6    37562.996    196 75517.991    75834.483    76319.444
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+999  FLAVI+F+R6    37291.599    214 75011.197    75418.365    75886.253
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1000  FLAVI+F+R7    37281.225    216 74994.449    75412.949    75877.683
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1008  FLAVI+F+I+R6  37286.155    215 75002.309    75415.109    75881.454
+1021  HIVb+R6       37253.269    195 74896.538    75208.538    75693.902
+1022  HIVb+R7       37247.799    197 74889.598    75210.635    75695.140
+1030  HIVb+I+R6     37245.704    196 74883.408    75199.900    75684.860
+1043  HIVb+F+R6     36921.243    214 74270.486    74677.654    75145.542
+1044  HIVb+F+R7     36912.621    216 74257.243    74675.743    75140.476
+1052  HIVb+F+I+R6   36911.224    215 74252.448    74665.248    75131.593
+1065  HIVw+R6       38928.078    195 78246.155    78558.155    79043.519
+1066  HIVw+R7       38926.510    197 78247.020    78568.057    79052.562
+1074  HIVw+I+R6     38926.071    196 78244.142    78560.634    79045.595
+1087  HIVw+F+R6     38112.907    214 76653.814    77060.982    77528.869
+1088  HIVw+F+R7     38108.605    216 76649.210    77067.710    77532.444
+1096  HIVw+F+I+R6   38108.210    215 76646.421    77059.221    77525.565
+1109  FLU+R6        36886.014    195 74162.027    74474.027    74959.391
+1110  FLU+R7        36881.073    197 74156.146    74477.183    74961.688
+1118  FLU+I+R6      36885.631    196 74163.262    74479.754    74964.715
+1131  FLU+F+R6      36591.118    214 73610.236    74017.404    74485.292
+1132  FLU+F+R7      36583.043    216 73598.087    74016.587    74481.320
+1140  FLU+F+I+R6    36590.096    215 73610.191    74022.991    74489.336
+1153  rtREV+R6      36483.049    195 73356.097    73668.097    74153.461
+1154  rtREV+R7      36481.022    197 73356.044    73677.082    74161.586
+1162  rtREV+I+R6    36481.896    196 73355.791    73672.283    74157.244
+1175  rtREV+F+R6    36089.375    214 72606.750    73013.919    73481.806
+1176  rtREV+F+R7    36086.950    216 72605.900    73024.400    73489.133
+1184  rtREV+F+I+R6  36087.676    215 72605.352    73018.152    73484.496
+1197  cpREV+R6      36647.670    195 73685.340    73997.340    74482.704
+1198  cpREV+R7      36644.334    197 73682.667    74003.704    74488.209
+1206  cpREV+I+R6    36643.351    196 73678.701    73995.193    74480.154
+1219  cpREV+F+R6    36542.077    214 73512.155    73919.323    74387.210
+1220  cpREV+F+R7    36539.253    216 73510.506    73929.006    74393.740
+1228  cpREV+F+I+R6  36537.217    215 73504.433    73917.233    74383.578
+Akaike Information Criterion:           Q.insect+F+R7
+Corrected Akaike Information Criterion: Q.insect+F+R6
+Bayesian Information Criterion:         Q.insect+F+R6
+Best-fit model: Q.insect+F+R6 chosen according to BIC
+
+All model information printed to NP_paramyxo.translated_blastp_mafftdash-cut.fasta.model.gz
+CPU time for ModelFinder: 4811.252 seconds (1h:20m:11s)
+Wall-clock time for ModelFinder: 6029.458 seconds (1h:40m:29s)
+Generating 1000 samples for ultrafast bootstrap (seed: 87651)...
+
+NOTE: 41 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -35803.329
+2. Current log-likelihood: -35791.922
+3. Current log-likelihood: -35791.657
+Optimal log-likelihood: -35791.585
+Site proportion and rates:  (0.072,0.042) (0.207,0.268) (0.340,0.626) (0.233,1.323) (0.104,2.406) (0.043,3.918)
+Parameters optimization took 3 rounds (17.939 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 5.99301 secs using 87.44% CPU
+Computing ML distances took 5.993170 sec (of wall-clock time) 5.240615 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000257015 secs using 80.93% CPU
+Computing RapidNJ tree took 0.002100 sec (of wall-clock time) 0.002429 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -35827.735
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.236 second
+Computing log-likelihood of 98 initial trees ... 47.794 seconds
+Current best score: -35791.585
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -35772.819
+Iteration 10 / LogL: -35780.227 / Time: 1h:42m:54s
+Iteration 20 / LogL: -35780.228 / Time: 1h:44m:0s
+Finish initializing candidate tree set (9)
+Current best tree score: -35772.819 / CPU time: 183.970
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -35772.845 / Time: 1h:45m:45s (0h:12m:54s left)
+Iteration 40 / LogL: -35923.080 / Time: 1h:47m:29s (0h:10m:56s left)
+Iteration 50 / LogL: -35830.347 / Time: 1h:49m:1s (0h:8m:52s left)
+Log-likelihood cutoff on original alignment: -35817.462
+Iteration 60 / LogL: -35773.513 / Time: 1h:50m:36s (0h:7m:1s left)
+Iteration 70 / LogL: -35776.430 / Time: 1h:52m:3s (0h:5m:11s left)
+Iteration 80 / LogL: -35774.994 / Time: 1h:53m:40s (0h:3m:30s left)
+Iteration 90 / LogL: -35774.972 / Time: 1h:55m:12s (0h:1m:49s left)
+Iteration 100 / LogL: -35775.401 / Time: 1h:56m:47s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -35817.462
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 1h:57m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -35772.819
+2. Current log-likelihood: -35772.795
+3. Current log-likelihood: -35772.761
+4. Current log-likelihood: -35772.731
+5. Current log-likelihood: -35772.701
+6. Current log-likelihood: -35772.670
+7. Current log-likelihood: -35772.641
+8. Current log-likelihood: -35772.624
+9. Current log-likelihood: -35772.594
+10. Current log-likelihood: -35772.577
+11. Current log-likelihood: -35772.547
+12. Current log-likelihood: -35772.530
+13. Current log-likelihood: -35772.501
+14. Current log-likelihood: -35772.485
+15. Current log-likelihood: -35772.456
+16. Current log-likelihood: -35772.442
+17. Current log-likelihood: -35772.425
+18. Current log-likelihood: -35772.410
+19. Current log-likelihood: -35772.393
+20. Current log-likelihood: -35772.376
+21. Current log-likelihood: -35772.362
+22. Current log-likelihood: -35772.347
+23. Current log-likelihood: -35772.331
+24. Current log-likelihood: -35772.318
+25. Current log-likelihood: -35772.303
+26. Current log-likelihood: -35772.288
+27. Current log-likelihood: -35772.273
+28. Current log-likelihood: -35772.257
+29. Current log-likelihood: -35772.243
+30. Current log-likelihood: -35772.228
+31. Current log-likelihood: -35772.213
+32. Current log-likelihood: -35772.198
+33. Current log-likelihood: -35772.185
+34. Current log-likelihood: -35772.171
+35. Current log-likelihood: -35772.158
+36. Current log-likelihood: -35772.144
+37. Current log-likelihood: -35772.130
+38. Current log-likelihood: -35772.118
+39. Current log-likelihood: -35772.104
+40. Current log-likelihood: -35772.090
+41. Current log-likelihood: -35772.076
+42. Current log-likelihood: -35772.064
+43. Current log-likelihood: -35772.051
+44. Current log-likelihood: -35772.037
+45. Current log-likelihood: -35772.025
+46. Current log-likelihood: -35772.011
+47. Current log-likelihood: -35771.998
+48. Current log-likelihood: -35771.986
+49. Current log-likelihood: -35771.973
+50. Current log-likelihood: -35771.961
+51. Current log-likelihood: -35771.948
+52. Current log-likelihood: -35771.935
+53. Current log-likelihood: -35771.924
+54. Current log-likelihood: -35771.911
+55. Current log-likelihood: -35771.900
+56. Current log-likelihood: -35771.887
+57. Current log-likelihood: -35771.876
+58. Current log-likelihood: -35771.864
+59. Current log-likelihood: -35771.853
+60. Current log-likelihood: -35771.841
+61. Current log-likelihood: -35771.830
+62. Current log-likelihood: -35771.818
+63. Current log-likelihood: -35771.808
+64. Current log-likelihood: -35771.796
+65. Current log-likelihood: -35771.785
+66. Current log-likelihood: -35771.774
+67. Current log-likelihood: -35771.764
+68. Current log-likelihood: -35771.752
+Optimal log-likelihood: -35771.737
+Site proportion and rates:  (0.068,0.036) (0.199,0.256) (0.348,0.613) (0.236,1.311) (0.106,2.400) (0.043,3.929)
+Parameters optimization took 68 rounds (278.521 sec)
+BEST SCORE FOUND : -35771.737
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+2.159 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file NP_paramyxo.translated_blastp_mafftdash-cut.fasta.splits.nex
+Total tree length: 31.883
+
+Total number of iterations: 102
+CPU time used for tree search: 897.776 sec (0h:14m:57s)
+Wall-clock time used for tree search: 970.162 sec (0h:16m:10s)
+Total CPU time used: 6007.554 sec (1h:40m:7s)
+Total wall-clock time used: 7308.070 sec (2h:1m:48s)
+
+Computing bootstrap consensus tree...
+Reading input file NP_paramyxo.translated_blastp_mafftdash-cut.fasta.splits.nex...
+94 taxa and 320 splits.
+Consensus tree written to NP_paramyxo.translated_blastp_mafftdash-cut.fasta.contree
+Reading input trees file NP_paramyxo.translated_blastp_mafftdash-cut.fasta.contree
+Log-likelihood of consensus tree: -35771.733
+
+Analysis results written to: 
+  IQ-TREE report:                NP_paramyxo.translated_blastp_mafftdash-cut.fasta.iqtree
+  Maximum-likelihood tree:       NP_paramyxo.translated_blastp_mafftdash-cut.fasta.treefile
+  Likelihood distances:          NP_paramyxo.translated_blastp_mafftdash-cut.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NP_paramyxo.translated_blastp_mafftdash-cut.fasta.splits.nex
+  Consensus tree:                NP_paramyxo.translated_blastp_mafftdash-cut.fasta.contree
+  Screen log file:               NP_paramyxo.translated_blastp_mafftdash-cut.fasta.log
+
+Date and Time: Fri Apr 11 09:34:21 2025
