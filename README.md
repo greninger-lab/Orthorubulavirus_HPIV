@@ -1,4 +1,5 @@
-This repository contains the analyses described in the article **"Distinct Evolutionary Signatures of Human Parainfluenza Viruses 2 and 4 Reveal Host Antagonism Divergence and Phylogenetic Discordance"** [Molecular Biology and Evolution September 2025](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaf217/8250741)
+#"Distinct Evolutionary Signatures of Human Parainfluenza Viruses 2 and 4 Reveal Host Antagonism Divergence and Phylogenetic Discordance"
+ This repository contains the analyses described in the article [Molecular Biology and Evolution September 2025](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaf217/8250741)
 
 ## Data Summary
 SupplementaryTable1.xlsx contains metadata and NCBI accession numbers for the genomes from western Washington State.
